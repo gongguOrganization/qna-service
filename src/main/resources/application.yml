@@ -1,0 +1,17 @@
+server:
+  port : 9091
+
+spring:
+  devtools:
+  livereload:
+    enabled: true
+  datasource:
+    url: jdbc:mysql://192.168.0.52:3306/mini_project?allowPublicKeyRetrieval=true&serverTimezone=UTC&amp
+    characterEncoding: UTF-8
+    username: ho
+    password: 1234
+  application:
+    name: qna-service
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
